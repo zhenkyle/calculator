@@ -90,8 +90,8 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
-}
-
-div {
-  border: 1px solid #e1e1e8;
+  .vcenter {
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
