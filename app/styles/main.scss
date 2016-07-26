@@ -67,6 +67,23 @@ body {
   }
 }
 
+
+#td-equal {
+  vertical-align: middle;
+}
+
+.btn {
+  width:45px;
+}
+
+#equal {
+  height: 86px;
+}
+
+#n0 {
+  width:107px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -90,8 +107,15 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
-  .vcenter {
-    display: inline-block;
-    vertical-align: middle;
-  }
+
+}
+
+#container {
+  width: 320px;
+}
+
+#display {
+  margin-bottom: 0;
+  font-size: 24px;
+  padding: 10px;
 }

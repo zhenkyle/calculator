@@ -27,10 +27,22 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="container">
+    <div id="container" class="container">
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 text-muted">
+          <h4><em>Calculator</em></h4>
+        </div>
+      </div>
       <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
-          <table  class="table table-bordered">
+          <table  class="table table-bordered text-center">
+            <tr>
+              <td colspan="4" class="text-right">
+                <div id="display" class="well">
+                  <strong>1234.00</strong>
+                </div>
+              </td>
+            </tr>
             <tr>
               <td>
                 <button type="button" class = "btn btn-danger center-block" id="AC">AC</button>
@@ -47,13 +59,13 @@
             </tr>
             <tr>
               <td>
-                <button type="button" class = "btn btn-primary" id="7">7</button>
+                <button type="button" class = "btn btn-primary" id="n7">7</button>
               </td>
               <td>
-                <button type="button" class = "btn btn-primary" id="8">8</button>
+                <button type="button" class = "btn btn-primary" id="n8">8</button>
               </td>
               <td>
-                <button type="button" class = "btn btn-primary" id="9">9</button>
+                <button type="button" class = "btn btn-primary" id="n9">9</button>
               </td>
               <td>
                 <button type="button" class = "btn btn-primary" id="substract">-</button>
@@ -61,13 +73,13 @@
             </tr>
             <tr>
               <td>
-                <button type="button" class = "btn btn-primary" id="4">4</button>
+                <button type="button" class = "btn btn-primary" id="n4">4</button>
               </td>
               <td>
-                <button type="button" class = "btn btn-primary" id="5">5</button>
+                <button type="button" class = "btn btn-primary" id="n5">5</button>
               </td>
               <td>
-                <button type="button" class = "btn btn-primary" id="6">6</button>
+                <button type="button" class = "btn btn-primary" id="n6">6</button>
               </td>
               <td>
                 <button type="button" class = "btn btn-primary" id="plus">+</button>
@@ -75,21 +87,21 @@
             </tr>
             <tr>
               <td>
-                <button type="button" class = "btn btn-primary" id="1">1</button>
+                <button type="button" class = "btn btn-primary" id="n1">1</button>
               </td>
               <td>
-                <button type="button" class = "btn btn-primary" id="2">2</button>
+                <button type="button" class = "btn btn-primary" id="n2">2</button>
               </td>
               <td>
-                <button type="button" class = "btn btn-primary" id="3">3</button>
+                <button type="button" class = "btn btn-primary" id="n3">3</button>
               </td>
-              <td rowspan="2">
-                <button type="button" class = "btn btn-primary center-block vcenter" id="plus">=</button>
+              <td id="td-equal" rowspan="2">
+                <button type="button" class = "btn btn-primary" id="equal">=</button>
               </td>
             </tr>
             <tr>
               <td colspan="2">
-                <button type="button" class = "btn btn-primary" id="0">0</button>
+                <button type="button" class = "btn btn-primary" id="n0">0</button>
               </td>
               <td>
                 <button type="button" class = "btn btn-primary" id="dot">.</button>
